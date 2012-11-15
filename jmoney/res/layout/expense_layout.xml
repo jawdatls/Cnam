@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f3f3f3" >
+		<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	<EditText
+    	    android:id="@+id/money"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:inputType="numberDecimal"
+   	     >
+
+    	    <requestFocus />
+    	</EditText>
+    	
+    	<DatePicker
+    	   android:id="@+id/date" 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:endYear="2100"
+	       android:startYear="1900" 
+	       android:orientation="vertical"
+        />
+
+    	<Spinner
+    	    android:id="@+id/category"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"/>
+
+    	<Spinner
+    	    android:id="@+id/subcategory"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"/>
+
+    	<Spinner
+    	    android:id="@+id/account"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"/>
+
+    	<Spinner
+    	    android:id="@+id/project"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"/>
+
+    	<EditText
+    	    android:id="@+id/remark"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:inputType="textMultiLine"
+    	    />
+
+    	<Button
+    	    android:id="@+id/submit"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    />      	    
+</LinearLayout>
+</ScrollView>

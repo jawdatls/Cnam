@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnam.jmoney.JmoneyLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f3f3f3"
+    >
+    <!--  Expense Button -->
+    <Button
+        android:id="@+id/btn_expense"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_expense"
+         />
+    
+	<!--  Income Button -->
+    <Button
+        android:id="@+id/btn_income"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_income"
+         />
+    
+	<!--  Manager Button -->
+    <Button
+        android:id="@+id/btn_manager"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_manager"
+         />
+	
+    <!--  Report Button -->
+    <Button
+        android:id="@+id/btn_report"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_report"
+         />
+    
+</com.cnam.jmoney.JmoneyLayout>

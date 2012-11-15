@@ -1,0 +1,248 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/part_1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:weightSum="1.0">
+    	
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>	
+    
+    	<TableRow
+    	    android:id="@+id/header_h"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content" >
+
+    		<TextView
+    		    android:id="@+id/empty_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/expense_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/income_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp" />
+
+    	</TableRow>
+    	
+    	<TableRow
+    	    android:id="@+id/header_v_5"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:background="#3d3d3d" >
+
+    		<TextView
+    		    android:id="@+id/day_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/day_expense_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#ff4a4a"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/day_income_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#529c52"
+    		    android:textSize="16dp" />
+
+    	</TableRow>
+    	
+    	<TableRow
+    	    android:id="@+id/header_v_4"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content" >
+
+    		<TextView
+    		    android:id="@+id/week_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/week_expense_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#ff4a4a"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/week_income_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#529c52"
+    		    android:textSize="16dp" />
+
+    	</TableRow>
+    	
+    	<TableRow
+    	    android:id="@+id/header_v_3"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:background="#3d3d3d" >
+
+    		<TextView
+    		    android:id="@+id/month_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp"  />
+
+    		<TextView
+    		    android:id="@+id/month_expense_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#ff4a4a"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/month_income_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#529c52"
+    		    android:textSize="16dp" />
+
+    	</TableRow>
+    	
+    	<TableRow
+    	    android:id="@+id/header_v_2"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content" >
+
+    		<TextView
+    		    android:id="@+id/year_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/year_expense_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#ff4a4a"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/year_income_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#529c52"
+    		    android:textSize="16dp" />
+
+    	</TableRow>
+    	
+    	<TableRow
+    	    android:id="@+id/header_v_1"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:background="#3d3d3d" >
+
+    		<TextView
+    		    android:id="@+id/total_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/total_expense_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#ff4a4a"
+    		    android:textSize="16dp" />
+
+    		<TextView
+    		    android:id="@+id/total_income_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#529c52"
+    		    android:textSize="16dp" />
+
+    	</TableRow>
+    	
+    	<TableRow
+    	    android:id="@+id/header_v_0"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:background="#f5f9c3" >
+
+    		<TextView
+    		    android:id="@+id/res_th"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".33"
+    		    android:textColor="#2f89df" />
+
+    		<TextView
+    		    android:id="@+id/res_td"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:layout_weight=".66" />
+
+    	</TableRow>
+    	
+    	<ListView
+     	android:id="@android:id/android:list"
+     	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	/>
+    		    
+</TableLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnam.jmoney.JmoneyLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f3f3f3"
+    >
+    	
+    	<!--  Category Button -->
+	    <Button
+	        android:id="@+id/btn_category"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_category"
+	         />
+	    
+		<!--  Account Button -->
+	    <Button
+	        android:id="@+id/btn_account"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_account"
+	         />
+	    
+		<!--  Project Button -->
+	    <Button
+	        android:id="@+id/btn_project"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_project"
+	         />
+		
+	    <!--  Setting Button -->
+	    <Button
+	        android:id="@+id/btn_setting"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_setting"
+	         />
+		    	    
+</com.cnam.jmoney.JmoneyLayout>
